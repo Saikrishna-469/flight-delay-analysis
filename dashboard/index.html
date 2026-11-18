@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flight Delay Analysis — Dashboard</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         margin: 0; background: #f4f6f8; color: #1c2733; }
+  header { background: #0b3d5c; color: #fff; padding: 28px 32px; }
+  header h1 { margin: 0 0 6px; font-size: 26px; }
+  header p { margin: 0; opacity: .85; }
+  main { max-width: 1100px; margin: 0 auto; padding: 24px; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; margin-bottom: 24px; }
+  .kpi { background: #fff; border-radius: 10px; padding: 18px; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+  .kpi .v { font-size: 30px; font-weight: 700; color: #0b3d5c; }
+  .kpi .l { font-size: 13px; color: #5a6b7a; margin-top: 4px; }
+  .card { background: #fff; border-radius: 10px; padding: 20px 22px; margin-bottom: 24px;
+          box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+  .card h2 { margin: 0 0 4px; font-size: 18px; }
+  .card p { color: #5a6b7a; font-size: 14px; }
+  .card img { width: 100%; border-radius: 6px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { padding: 8px 10px; border-bottom: 1px solid #e5e9ed; text-align: left; }
+  th { color: #5a6b7a; font-weight: 600; }
+  td.num, th.num { text-align: right; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media (max-width: 760px) { .grid2 { grid-template-columns: 1fr; } }
+  footer { max-width: 1100px; margin: 0 auto; padding: 0 24px 32px; color: #5a6b7a; font-size: 13px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Flight Delay Analysis</h1>
+  <p>US BTS On-Time Performance &middot; Sep 2025 &ndash; Aug 2026 &middot; 7,049,869 scheduled flights &middot; 14 airlines &middot; 360 airports</p>
+</header>
+<main>
+  <div class="kpis">
+    <div class="kpi"><div class="v">77.3%</div><div class="l">On-time (arrival &lt; 15 min late)</div></div>
+    <div class="kpi"><div class="v">17.6 min</div><div class="l">Average arrival delay</div></div>
+    <div class="kpi"><div class="v">22.7%</div><div class="l">Flights delayed 15+ min</div></div>
+    <div class="kpi"><div class="v">1.9%</div><div class="l">Cancellation rate</div></div>
+    <div class="kpi"><div class="v">72.7%</div><div class="l">Delay minutes airline-controllable</div></div>
+    <div class="kpi"><div class="v">1.91M hrs</div><div class="l">Total delay time (delayed flights)</div></div>
+  </div>
+
+  <div class="card">
+    <h2>Delays build through the day</h2>
+    <p>On-time performance falls from 91.7% on 5am departures to 67.3% by 7pm. Delays cascade: a late aircraft in the morning is still late in the evening.</p>
+    <img src="../images/delay_by_hour.png" alt="On-time % by scheduled departure hour">
+  </div>
+
+  <div class="card">
+    <h2>When is it worst? Hour by weekday</h2>
+    <p>Sunday evenings are the worst slot in the week (60&ndash;63% on time, 6&ndash;10pm). Tuesday and Wednesday mornings are the best (up to 93%).</p>
+    <img src="../images/heatmap_hour_weekday.png" alt="Heatmap of on-time % by hour and weekday">
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h2>Best and worst airlines</h2>
+      <p>Delta leads the large carriers at 81.1% on time; JetBlue trails at 71.3%.</p>
+      <img src="../images/airlines_ontime.png" alt="On-time % by airline">
+    </div>
+    <div class="card">
+      <h2>What causes delays?</h2>
+      <p>Late aircraft (39.8%) and carrier issues (32.9%) dominate. Weather is only 6.0% of delay minutes.</p>
+      <img src="../images/cause_shares.png" alt="Share of delay minutes by cause">
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Seasonality</h2>
+    <p>July 2026 was the worst month (71.7% on time) and September 2025 the best (83.4%). January 2026 had the highest cancellation rate (4.7%).</p>
+    <img src="../images/seasonality.png" alt="Monthly on-time % and cancellation rate">
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h2>Worst 10 routes (1,000+ flights)</h2>
+      <table>
+        <tr><th>Route</th><th class="num">Flights</th><th class="num">On-time</th><th class="num">Avg delay</th></tr>
+        <tr><td>SBP&ndash;SFO</td><td class="num">1,125</td><td class="num">56.4%</td><td class="num">32.8 min</td></tr>
+        <tr><td>ACV&ndash;SFO</td><td class="num">1,254</td><td class="num">56.5%</td><td class="num">35.2 min</td></tr>
+        <tr><td>LAS&ndash;SFO</td><td class="num">6,088</td><td class="num">58.0%</td><td class="num">26.5 min</td></tr>
+        <tr><td>RNO&ndash;SFO</td><td class="num">1,951</td><td class="num">59.3%</td><td class="num">27.2 min</td></tr>
+        <tr><td>BUR&ndash;SFO</td><td class="num">3,060</td><td class="num">59.3%</td><td class="num">29.0 min</td></tr>
+        <tr><td>ORD&ndash;ASE</td><td class="num">1,089</td><td class="num">59.4%</td><td class="num">37.9 min</td></tr>
+        <tr><td>SAN&ndash;SFO</td><td class="num">6,631</td><td class="num">59.5%</td><td class="num">25.4 min</td></tr>
+        <tr><td>HPN&ndash;DCA</td><td class="num">1,250</td><td class="num">59.6%</td><td class="num">45.6 min</td></tr>
+        <tr><td>SEA&ndash;SFO</td><td class="num">6,739</td><td class="num">59.8%</td><td class="num">24.1 min</td></tr>
+        <tr><td>DAL&ndash;LGA</td><td class="num">1,474</td><td class="num">59.8%</td><td class="num">27.5 min</td></tr>
+      </table>
+      <p>Six of the ten worst routes end at San Francisco.</p>
+    </div>
+    <div class="card">
+      <h2>Busiest airports</h2>
+      <table>
+        <tr><th>Airport</th><th class="num">Flights handled</th><th class="num">Arrival on-time</th><th class="num">Avg arr. delay</th></tr>
+        <tr><td>ORD, Chicago</td><td class="num">702,423</td><td class="num">73.2%</td><td class="num">25.5 min</td></tr>
+        <tr><td>DEN, Denver</td><td class="num">631,887</td><td class="num">79.1%</td><td class="num">16.3 min</td></tr>
+        <tr><td>ATL, Atlanta</td><td class="num">617,950</td><td class="num">82.1%</td><td class="num">14.9 min</td></tr>
+        <tr><td>DFW, Dallas/Fort Worth</td><td class="num">606,441</td><td class="num">78.2%</td><td class="num">21.5 min</td></tr>
+        <tr><td>SFO, San Francisco</td><td class="num">293,319</td><td class="num">66.3%</td><td class="num">23.3 min</td></tr>
+        <tr><td>SLC, Salt Lake City</td><td class="num">233,490</td><td class="num">84.5%</td><td class="num">11.7 min</td></tr>
+      </table>
+      <p>Full airport table: <code>dashboard/04_airports_q1.csv</code></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Recommendations</h2>
+    <p><b>Fly early.</b> Departures before 9am run 83&ndash;92% on time; after 6pm it drops to about 67%.</p>
+    <p><b>Avoid SFO for connections</b>, especially in the evening &mdash; 6 of the 10 worst routes end there, and SFO arrivals run only 66.3% on time.</p>
+    <p><b>Prefer Delta or Alaska</b> for reliability (81% / 80% on time). Budget carriers trade price for punctuality (JetBlue 71%, Spirit 72%, Frontier 73%).</p>
+    <p><b>Build buffer time on multi-leg trips.</b> Late aircraft causes 39.8% of delay minutes and appears in 52.2% of delayed flights.</p>
+    <p><b>Avoid Sundays and July</b> when the schedule allows (73.0% and 71.7% on time).</p>
+  </div>
+</main>
+<footer>
+  Source: US Bureau of Transportation Statistics, On-Time Performance, Sep 2025 &ndash; Aug 2026.
+  On-time = arrival delay under 15 minutes, operated flights only. See README.md for methods, SQL, and limitations.
+  To rebuild this view in Power BI or Tableau, see dashboard/DASHBOARD_SPEC.md.
+</footer>
+</body>
+</html>

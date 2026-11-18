@@ -1,0 +1,15 @@
+airline_code,airline_name,operated_flights,cancelled_flights,cancellation_rate_pct,on_time_pct,avg_arrival_delay_min,on_time_rank_best,on_time_rank_worst
+DL,Delta Air Lines Inc.,1018714,18040.0,1.74,81.12,14.33,1,14
+MQ,Envoy Air,312533,7002.0,2.19,80.96,14.09,2,13
+HA,Hawaiian Airlines Inc.,25915,227.0,0.87,80.83,12.53,3,12
+AS,Alaska Airlines Inc.,305255,3717.0,1.2,79.7,11.78,4,11
+UA,United Air Lines Inc.,819606,8497.0,1.02,78.84,16.38,5,10
+OO,SkyWest Airlines Inc.,837359,15312.0,1.79,78.7,19.68,6,9
+YX,Republic Airways,346971,16575.0,4.55,78.06,16.93,7,8
+WN,Southwest Airlines Co.,1375352,12741.0,0.92,75.7,14.19,8,7
+AA,American Airlines Inc.,964225,21118.0,2.14,74.73,22.5,9,6
+G4,Allegiant Air,124731,863.0,0.68,73.87,24.01,10,5
+OH,PSA Airlines Inc.,230585,11660.0,4.8,73.49,26.13,11,4
+F9,Frontier Airlines Inc.,208222,4361.0,2.05,72.71,23.89,12,3
+NK,Spirit Air Lines,95300,4521.0,4.52,71.96,21.81,13,2
+B6,JetBlue Airways,231217,8577.0,3.56,71.27,23.03,14,1

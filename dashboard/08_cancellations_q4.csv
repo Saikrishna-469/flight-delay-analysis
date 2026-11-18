@@ -1,0 +1,11 @@
+airport,city,scheduled_departures,cancelled_departures,cancellation_rate_pct
+ASE,"Aspen, CO",8137,471.0,5.79
+LGA,"New York, NY",135253,6821.0,5.04
+DCA,"Washington, DC",142229,5669.0,3.99
+JFK,"New York, NY",102713,4083.0,3.98
+HPN,"White Plains, NY",10486,408.0,3.89
+TVC,"Traverse City, MI",5756,209.0,3.63
+ILM,"Wilmington, NC",7560,263.0,3.48
+EWR,"Newark, NJ",122267,4204.0,3.44
+BTV,"Burlington, VT",6146,210.0,3.42
+GSO,"Greensboro/High Point, NC",10375,351.0,3.38

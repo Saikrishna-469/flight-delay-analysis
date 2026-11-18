@@ -1,0 +1,10 @@
+# Raw data and build artifacts (rebuilt by load.py / run_analysis.py)
+data/raw/
+data/*.zip
+data/*.duckdb
+analysis_output.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,15 @@
+airline_code,airline_name,scheduled_flights,cancelled_flights,cancellation_rate_pct
+OH,PSA Airlines Inc.,242979,11660.0,4.8
+YX,Republic Airways,364452,16575.0,4.55
+NK,Spirit Air Lines,99981,4521.0,4.52
+B6,JetBlue Airways,240615,8577.0,3.56
+MQ,Envoy Air,320362,7002.0,2.19
+AA,American Airlines Inc.,988892,21118.0,2.14
+F9,Frontier Airlines Inc.,213022,4361.0,2.05
+OO,SkyWest Airlines Inc.,855406,15312.0,1.79
+DL,Delta Air Lines Inc.,1039517,18040.0,1.74
+AS,Alaska Airlines Inc.,309844,3717.0,1.2
+UA,United Air Lines Inc.,830825,8497.0,1.02
+WN,Southwest Airlines Co.,1391794,12741.0,0.92
+HA,Hawaiian Airlines Inc.,26175,227.0,0.87
+G4,Allegiant Air,126005,863.0,0.68

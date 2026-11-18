@@ -1,0 +1,8 @@
+day_of_week,weekday,operated_flights,on_time_pct,avg_arrival_delay_min
+1,Monday,1044323,75.61,19.73
+2,Tuesday,932834,81.1,14.52
+3,Wednesday,946911,80.93,13.97
+4,Thursday,1027086,76.67,17.28
+5,Friday,1032820,75.92,18.64
+6,Saturday,889788,78.35,16.92
+7,Sunday,1022223,73.04,21.39

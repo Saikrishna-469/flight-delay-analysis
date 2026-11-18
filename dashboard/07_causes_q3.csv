@@ -1,0 +1,15 @@
+airline_code,airline_name,delayed_flights,late_aircraft_share_of_delay_min_pct,carrier_share_of_delay_min_pct
+F9,Frontier Airlines Inc.,56817,51.8,25.5
+WN,Southwest Airlines Co.,334203,51.1,28.2
+OH,PSA Airlines Inc.,61138,49.1,29.3
+AA,American Airlines Inc.,243665,46.7,33.8
+B6,JetBlue Airways,66432,44.9,27.4
+MQ,Envoy Air,59497,44.6,20.2
+G4,Allegiant Air,32594,39.5,30.8
+YX,Republic Airways,76108,39.0,23.0
+AS,Alaska Airlines Inc.,61962,37.8,33.1
+UA,United Air Lines Inc.,173415,36.4,24.8
+HA,Hawaiian Airlines Inc.,4967,32.2,63.5
+NK,Spirit Air Lines,26726,30.4,31.7
+DL,Delta Air Lines Inc.,192289,29.4,44.1
+OO,SkyWest Airlines Inc.,178399,22.1,45.9

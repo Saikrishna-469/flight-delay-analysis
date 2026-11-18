@@ -1,0 +1,2 @@
+delayed_flights,carrier_share_pct,late_aircraft_share_pct,nas_share_pct,weather_share_pct,security_share_pct,controllable_share_pct,system_share_pct,total_delay_thousand_hours
+1568212,32.9,39.8,21.1,6.0,0.1,72.7,21.2,1908.4

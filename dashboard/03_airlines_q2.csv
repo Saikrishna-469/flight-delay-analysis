@@ -1,0 +1,260 @@
+origin,origin_city,airline_code,airline_name,operated_flights,on_time_pct,rank_within_airport
+ABQ,"Albuquerque, NM",OO,SkyWest Airlines Inc.,5051,87.86,1
+ABQ,"Albuquerque, NM",WN,Southwest Airlines Co.,11643,81.13,2
+ANC,"Anchorage, AK",AS,Alaska Airlines Inc.,14881,86.36,1
+ASE,"Aspen, CO",OO,SkyWest Airlines Inc.,7620,71.59,1
+ATL,"Atlanta, GA",UA,United Air Lines Inc.,7528,79.69,1
+ATL,"Atlanta, GA",DL,Delta Air Lines Inc.,236306,79.54,2
+ATL,"Atlanta, GA",WN,Southwest Airlines Co.,16862,76.36,3
+ATL,"Atlanta, GA",AA,American Airlines Inc.,6749,75.67,4
+ATL,"Atlanta, GA",OO,SkyWest Airlines Inc.,6488,75.08,5
+ATL,"Atlanta, GA",F9,Frontier Airlines Inc.,20232,63.74,6
+AUS,"Austin, TX",DL,Delta Air Lines Inc.,12965,82.55,1
+AUS,"Austin, TX",OO,SkyWest Airlines Inc.,8318,80.92,2
+AUS,"Austin, TX",UA,United Air Lines Inc.,10720,80.09,3
+AUS,"Austin, TX",AA,American Airlines Inc.,11376,76.75,4
+AUS,"Austin, TX",WN,Southwest Airlines Co.,38238,72.8,5
+AZA,"Phoenix, AZ",G4,Allegiant Air,6262,81.16,1
+BHM,"Birmingham, AL",WN,Southwest Airlines Co.,5026,79.92,1
+BNA,"Nashville, TN",DL,Delta Air Lines Inc.,9184,83.63,1
+BNA,"Nashville, TN",AA,American Airlines Inc.,9193,77.71,2
+BNA,"Nashville, TN",UA,United Air Lines Inc.,6881,76.24,3
+BNA,"Nashville, TN",YX,Republic Airways,6751,75.38,4
+BNA,"Nashville, TN",WN,Southwest Airlines Co.,62181,72.9,5
+BOI,"Boise, ID",OO,SkyWest Airlines Inc.,10276,84.81,1
+BOI,"Boise, ID",WN,Southwest Airlines Co.,5313,81.1,2
+BOS,"Boston, MA",AA,American Airlines Inc.,16642,78.21,1
+BOS,"Boston, MA",UA,United Air Lines Inc.,12762,77.68,2
+BOS,"Boston, MA",YX,Republic Airways,33214,77.18,3
+BOS,"Boston, MA",DL,Delta Air Lines Inc.,25920,76.05,4
+BOS,"Boston, MA",B6,JetBlue Airways,36118,70.07,5
+BOS,"Boston, MA",WN,Southwest Airlines Co.,7188,69.28,6
+BUF,"Buffalo, NY",WN,Southwest Airlines Co.,5358,79.06,1
+BUR,"Burbank, CA",WN,Southwest Airlines Co.,17190,82.37,1
+BWI,"Baltimore, MD",DL,Delta Air Lines Inc.,5183,85.28,1
+BWI,"Baltimore, MD",WN,Southwest Airlines Co.,70510,76.53,2
+CHS,"Charleston, SC",AA,American Airlines Inc.,5030,81.25,1
+CLE,"Cleveland, OH",UA,United Air Lines Inc.,8846,84.23,1
+CLE,"Cleveland, OH",WN,Southwest Airlines Co.,5382,80.49,2
+CLE,"Cleveland, OH",F9,Frontier Airlines Inc.,6259,75.51,3
+CLT,"Charlotte, NC",DL,Delta Air Lines Inc.,5401,85.58,1
+CLT,"Charlotte, NC",MQ,Envoy Air,5701,83.42,2
+CLT,"Charlotte, NC",AA,American Airlines Inc.,111561,75.55,3
+CLT,"Charlotte, NC",OH,PSA Airlines Inc.,37660,75.22,4
+CMH,"Columbus, OH",YX,Republic Airways,12574,82.34,1
+CMH,"Columbus, OH",WN,Southwest Airlines Co.,12168,80.0,2
+COS,"Colorado Springs, CO",OO,SkyWest Airlines Inc.,5801,82.38,1
+CVG,"Cincinnati, OH",DL,Delta Air Lines Inc.,7503,84.42,1
+DAL,"Dallas, TX",WN,Southwest Airlines Co.,67519,72.37,1
+DCA,"Washington, DC",DL,Delta Air Lines Inc.,9319,77.93,1
+DCA,"Washington, DC",UA,United Air Lines Inc.,6753,77.55,2
+DCA,"Washington, DC",YX,Republic Airways,25892,74.98,3
+DCA,"Washington, DC",AA,American Airlines Inc.,26811,74.69,4
+DCA,"Washington, DC",WN,Southwest Airlines Co.,15614,72.72,5
+DCA,"Washington, DC",B6,JetBlue Airways,6433,67.57,6
+DCA,"Washington, DC",OH,PSA Airlines Inc.,37398,65.86,7
+DEN,"Denver, CO",DL,Delta Air Lines Inc.,11299,83.12,1
+DEN,"Denver, CO",OO,SkyWest Airlines Inc.,74087,80.38,2
+DEN,"Denver, CO",UA,United Air Lines Inc.,107125,78.87,3
+DEN,"Denver, CO",F9,Frontier Airlines Inc.,22662,78.48,4
+DEN,"Denver, CO",AA,American Airlines Inc.,8735,77.1,5
+DEN,"Denver, CO",WN,Southwest Airlines Co.,87598,69.48,6
+DFW,"Dallas/Fort Worth, TX",MQ,Envoy Air,62757,83.63,1
+DFW,"Dallas/Fort Worth, TX",DL,Delta Air Lines Inc.,11298,81.42,2
+DFW,"Dallas/Fort Worth, TX",OO,SkyWest Airlines Inc.,21657,77.65,3
+DFW,"Dallas/Fort Worth, TX",UA,United Air Lines Inc.,9859,76.61,4
+DFW,"Dallas/Fort Worth, TX",OH,PSA Airlines Inc.,21283,74.72,5
+DFW,"Dallas/Fort Worth, TX",F9,Frontier Airlines Inc.,10688,74.15,6
+DFW,"Dallas/Fort Worth, TX",AA,American Airlines Inc.,160048,66.69,7
+DTW,"Detroit, MI",YX,Republic Airways,6018,81.69,1
+DTW,"Detroit, MI",DL,Delta Air Lines Inc.,59370,77.78,2
+DTW,"Detroit, MI",OO,SkyWest Airlines Inc.,27806,74.13,3
+DTW,"Detroit, MI",NK,Spirit Air Lines,5952,73.87,4
+ELP,"El Paso, TX",WN,Southwest Airlines Co.,8725,79.81,1
+EWR,"Newark, NJ",YX,Republic Airways,23086,83.47,1
+EWR,"Newark, NJ",AA,American Airlines Inc.,6356,79.67,2
+EWR,"Newark, NJ",DL,Delta Air Lines Inc.,6340,79.02,3
+EWR,"Newark, NJ",UA,United Air Lines Inc.,66552,76.28,4
+EWR,"Newark, NJ",NK,Spirit Air Lines,5518,68.05,5
+FAT,"Fresno, CA",OO,SkyWest Airlines Inc.,6831,81.38,1
+FLL,"Fort Lauderdale, FL",UA,United Air Lines Inc.,8908,82.57,1
+FLL,"Fort Lauderdale, FL",DL,Delta Air Lines Inc.,12656,76.66,2
+FLL,"Fort Lauderdale, FL",AA,American Airlines Inc.,7770,74.3,3
+FLL,"Fort Lauderdale, FL",WN,Southwest Airlines Co.,11321,71.23,4
+FLL,"Fort Lauderdale, FL",B6,JetBlue Airways,24360,66.86,5
+FLL,"Fort Lauderdale, FL",NK,Spirit Air Lines,14132,65.19,6
+GEG,"Spokane, WA",OO,SkyWest Airlines Inc.,6385,84.79,1
+HNL,"Honolulu, HI",WN,Southwest Airlines Co.,12277,90.17,1
+HNL,"Honolulu, HI",UA,United Air Lines Inc.,5049,85.01,2
+HNL,"Honolulu, HI",HA,Hawaiian Airlines Inc.,10696,81.39,3
+HNL,"Honolulu, HI",AS,Alaska Airlines Inc.,23014,76.97,4
+HOU,"Houston, TX",WN,Southwest Airlines Co.,49513,76.23,1
+HPN,"White Plains, NY",B6,JetBlue Airways,5100,75.31,1
+IAD,"Washington, DC",UA,United Air Lines Inc.,36501,82.06,1
+IAD,"Washington, DC",YX,Republic Airways,8152,81.5,2
+IAH,"Houston, TX",DL,Delta Air Lines Inc.,8242,80.98,1
+IAH,"Houston, TX",UA,United Air Lines Inc.,73600,80.65,2
+IAH,"Houston, TX",OO,SkyWest Airlines Inc.,13980,77.78,3
+IAH,"Houston, TX",AA,American Airlines Inc.,7721,77.46,4
+IAH,"Houston, TX",F9,Frontier Airlines Inc.,5202,70.92,5
+IND,"Indianapolis, IN",YX,Republic Airways,13361,81.57,1
+IND,"Indianapolis, IN",AA,American Airlines Inc.,6622,80.79,2
+IND,"Indianapolis, IN",WN,Southwest Airlines Co.,12915,79.5,3
+JAX,"Jacksonville, FL",DL,Delta Air Lines Inc.,5149,84.17,1
+JAX,"Jacksonville, FL",AA,American Airlines Inc.,6768,80.23,2
+JFK,"New York, NY",AA,American Airlines Inc.,14840,77.84,1
+JFK,"New York, NY",YX,Republic Airways,14128,76.51,2
+JFK,"New York, NY",DL,Delta Air Lines Inc.,29630,76.46,3
+JFK,"New York, NY",B6,JetBlue Airways,33784,70.69,4
+KOA,"Kona, HI",AS,Alaska Airlines Inc.,7258,79.65,1
+LAS,"Las Vegas, NV",NK,Spirit Air Lines,5397,85.05,1
+LAS,"Las Vegas, NV",DL,Delta Air Lines Inc.,15364,84.35,2
+LAS,"Las Vegas, NV",G4,Allegiant Air,6964,83.1,3
+LAS,"Las Vegas, NV",AA,American Airlines Inc.,13768,80.53,4
+LAS,"Las Vegas, NV",UA,United Air Lines Inc.,14996,79.49,5
+LAS,"Las Vegas, NV",AS,Alaska Airlines Inc.,7011,78.66,6
+LAS,"Las Vegas, NV",F9,Frontier Airlines Inc.,12882,75.45,7
+LAS,"Las Vegas, NV",WN,Southwest Airlines Co.,85710,73.42,8
+LAX,"Los Angeles, CA",OO,SkyWest Airlines Inc.,40380,84.93,1
+LAX,"Los Angeles, CA",UA,United Air Lines Inc.,29341,82.47,2
+LAX,"Los Angeles, CA",DL,Delta Air Lines Inc.,37021,80.88,3
+LAX,"Los Angeles, CA",AS,Alaska Airlines Inc.,9867,79.98,4
+LAX,"Los Angeles, CA",AA,American Airlines Inc.,29270,75.97,5
+LAX,"Los Angeles, CA",B6,JetBlue Airways,7496,75.71,6
+LAX,"Los Angeles, CA",F9,Frontier Airlines Inc.,5596,73.61,7
+LAX,"Los Angeles, CA",WN,Southwest Airlines Co.,25330,72.32,8
+LGA,"New York, NY",YX,Republic Airways,52927,74.21,1
+LGA,"New York, NY",DL,Delta Air Lines Inc.,28160,74.02,2
+LGA,"New York, NY",UA,United Air Lines Inc.,8754,71.36,3
+LGA,"New York, NY",AA,American Airlines Inc.,16347,71.09,4
+LGA,"New York, NY",WN,Southwest Airlines Co.,11163,68.73,5
+LGB,"Long Beach, CA",WN,Southwest Airlines Co.,13039,84.04,1
+LIH,"Lihue, HI",AS,Alaska Airlines Inc.,7084,78.32,1
+MCI,"Kansas City, MO",DL,Delta Air Lines Inc.,7930,86.43,1
+MCI,"Kansas City, MO",WN,Southwest Airlines Co.,23175,78.13,2
+MCO,"Orlando, FL",UA,United Air Lines Inc.,14829,81.47,1
+MCO,"Orlando, FL",DL,Delta Air Lines Inc.,21104,77.92,2
+MCO,"Orlando, FL",F9,Frontier Airlines Inc.,18711,76.28,3
+MCO,"Orlando, FL",AA,American Airlines Inc.,19198,74.43,4
+MCO,"Orlando, FL",WN,Southwest Airlines Co.,50571,72.57,5
+MCO,"Orlando, FL",B6,JetBlue Airways,18217,71.26,6
+MCO,"Orlando, FL",NK,Spirit Air Lines,10798,70.06,7
+MDW,"Chicago, IL",WN,Southwest Airlines Co.,68312,73.97,1
+MIA,"Miami, FL",MQ,Envoy Air,14212,83.04,1
+MIA,"Miami, FL",UA,United Air Lines Inc.,6652,78.67,2
+MIA,"Miami, FL",DL,Delta Air Lines Inc.,11386,74.74,3
+MIA,"Miami, FL",AA,American Airlines Inc.,63035,72.52,4
+MIA,"Miami, FL",WN,Southwest Airlines Co.,5286,69.73,5
+MKE,"Milwaukee, WI",WN,Southwest Airlines Co.,9952,79.76,1
+MKE,"Milwaukee, WI",OO,SkyWest Airlines Inc.,7412,72.45,2
+MSP,"Minneapolis, MN",OO,SkyWest Airlines Inc.,27667,80.02,1
+MSP,"Minneapolis, MN",DL,Delta Air Lines Inc.,63755,79.44,2
+MSP,"Minneapolis, MN",WN,Southwest Airlines Co.,5619,78.95,3
+MSP,"Minneapolis, MN",UA,United Air Lines Inc.,5352,75.67,4
+MSY,"New Orleans, LA",UA,United Air Lines Inc.,6685,84.37,1
+MSY,"New Orleans, LA",DL,Delta Air Lines Inc.,7340,83.13,2
+MSY,"New Orleans, LA",AA,American Airlines Inc.,7413,76.53,3
+MSY,"New Orleans, LA",WN,Southwest Airlines Co.,18153,75.83,4
+OAK,"Oakland, CA",WN,Southwest Airlines Co.,27446,77.17,1
+OGG,"Kahului, HI",WN,Southwest Airlines Co.,5080,92.91,1
+OGG,"Kahului, HI",AS,Alaska Airlines Inc.,10793,76.94,2
+OKC,"Oklahoma City, OK",OO,SkyWest Airlines Inc.,7529,82.15,1
+OKC,"Oklahoma City, OK",WN,Southwest Airlines Co.,7193,81.16,2
+OMA,"Omaha, NE",OO,SkyWest Airlines Inc.,5502,83.15,1
+OMA,"Omaha, NE",WN,Southwest Airlines Co.,7912,78.84,2
+ONT,"Ontario, CA",WN,Southwest Airlines Co.,11583,81.11,1
+ORD,"Chicago, IL",MQ,Envoy Air,56141,76.09,1
+ORD,"Chicago, IL",YX,Republic Airways,32073,76.05,2
+ORD,"Chicago, IL",UA,United Air Lines Inc.,100541,72.98,3
+ORD,"Chicago, IL",DL,Delta Air Lines Inc.,10306,71.97,4
+ORD,"Chicago, IL",AA,American Airlines Inc.,59726,66.45,5
+ORD,"Chicago, IL",OO,SkyWest Airlines Inc.,75427,65.79,6
+PBI,"West Palm Beach/Palm Beach, FL",DL,Delta Air Lines Inc.,6414,77.19,1
+PBI,"West Palm Beach/Palm Beach, FL",AA,American Airlines Inc.,5866,76.71,2
+PBI,"West Palm Beach/Palm Beach, FL",B6,JetBlue Airways,8116,71.44,3
+PDX,"Portland, OR",DL,Delta Air Lines Inc.,7055,90.11,1
+PDX,"Portland, OR",OO,SkyWest Airlines Inc.,10507,85.33,2
+PDX,"Portland, OR",AS,Alaska Airlines Inc.,24449,82.96,3
+PDX,"Portland, OR",UA,United Air Lines Inc.,6565,80.58,4
+PDX,"Portland, OR",WN,Southwest Airlines Co.,8537,75.66,5
+PGD,"Punta Gorda, FL",G4,Allegiant Air,7311,78.91,1
+PHL,"Philadelphia, PA",YX,Republic Airways,6556,82.21,1
+PHL,"Philadelphia, PA",DL,Delta Air Lines Inc.,6337,82.18,2
+PHL,"Philadelphia, PA",AA,American Airlines Inc.,45303,76.06,3
+PHL,"Philadelphia, PA",OH,PSA Airlines Inc.,17312,73.56,4
+PHL,"Philadelphia, PA",WN,Southwest Airlines Co.,5023,71.41,5
+PHL,"Philadelphia, PA",F9,Frontier Airlines Inc.,9091,67.67,6
+PHX,"Phoenix, AZ",DL,Delta Air Lines Inc.,10493,86.12,1
+PHX,"Phoenix, AZ",AS,Alaska Airlines Inc.,5635,84.9,2
+PHX,"Phoenix, AZ",MQ,Envoy Air,11043,84.01,3
+PHX,"Phoenix, AZ",UA,United Air Lines Inc.,9939,80.31,4
+PHX,"Phoenix, AZ",OO,SkyWest Airlines Inc.,27192,80.29,5
+PHX,"Phoenix, AZ",F9,Frontier Airlines Inc.,7525,78.91,6
+PHX,"Phoenix, AZ",AA,American Airlines Inc.,55866,78.5,7
+PHX,"Phoenix, AZ",WN,Southwest Airlines Co.,66426,73.17,8
+PIE,"St. Petersburg, FL",G4,Allegiant Air,8914,77.2,1
+PIT,"Pittsburgh, PA",YX,Republic Airways,11217,83.24,1
+PIT,"Pittsburgh, PA",AA,American Airlines Inc.,5752,79.83,2
+PIT,"Pittsburgh, PA",WN,Southwest Airlines Co.,10285,79.39,3
+PSP,"Palm Springs, CA",OO,SkyWest Airlines Inc.,5800,77.83,1
+PVD,"Providence, RI",WN,Southwest Airlines Co.,5023,81.72,1
+RDU,"Raleigh/Durham, NC",DL,Delta Air Lines Inc.,11719,84.73,1
+RDU,"Raleigh/Durham, NC",UA,United Air Lines Inc.,6129,81.27,2
+RDU,"Raleigh/Durham, NC",AA,American Airlines Inc.,9264,80.6,3
+RDU,"Raleigh/Durham, NC",WN,Southwest Airlines Co.,8744,79.79,4
+RDU,"Raleigh/Durham, NC",YX,Republic Airways,7147,74.41,5
+RNO,"Reno, NV",WN,Southwest Airlines Co.,8387,80.8,1
+RSW,"Fort Myers, FL",UA,United Air Lines Inc.,5795,84.47,1
+RSW,"Fort Myers, FL",DL,Delta Air Lines Inc.,7294,81.18,2
+RSW,"Fort Myers, FL",AA,American Airlines Inc.,6281,77.44,3
+RSW,"Fort Myers, FL",WN,Southwest Airlines Co.,8110,76.68,4
+SAN,"San Diego, CA",DL,Delta Air Lines Inc.,9448,86.3,1
+SAN,"San Diego, CA",AA,American Airlines Inc.,9171,80.56,2
+SAN,"San Diego, CA",UA,United Air Lines Inc.,10532,79.7,3
+SAN,"San Diego, CA",AS,Alaska Airlines Inc.,13088,79.04,4
+SAN,"San Diego, CA",OO,SkyWest Airlines Inc.,14558,77.76,5
+SAN,"San Diego, CA",WN,Southwest Airlines Co.,38613,70.61,6
+SAT,"San Antonio, TX",DL,Delta Air Lines Inc.,6710,85.9,1
+SAT,"San Antonio, TX",UA,United Air Lines Inc.,5585,83.83,2
+SAT,"San Antonio, TX",AA,American Airlines Inc.,7229,81.88,3
+SAT,"San Antonio, TX",WN,Southwest Airlines Co.,14999,80.0,4
+SBN,"South Bend, IN",OO,SkyWest Airlines Inc.,5499,71.65,1
+SDF,"Louisville, KY",YX,Republic Airways,5718,84.59,1
+SDF,"Louisville, KY",WN,Southwest Airlines Co.,5211,82.88,2
+SEA,"Seattle, WA",OO,SkyWest Airlines Inc.,28323,84.86,1
+SEA,"Seattle, WA",DL,Delta Air Lines Inc.,31888,80.74,2
+SEA,"Seattle, WA",UA,United Air Lines Inc.,8580,79.94,3
+SEA,"Seattle, WA",AA,American Airlines Inc.,6595,79.67,4
+SEA,"Seattle, WA",AS,Alaska Airlines Inc.,76019,78.45,5
+SEA,"Seattle, WA",WN,Southwest Airlines Co.,8137,68.18,6
+SFB,"Sanford, FL",G4,Allegiant Air,10008,70.48,1
+SFO,"San Francisco, CA",UA,United Air Lines Inc.,61567,79.81,1
+SFO,"San Francisco, CA",AA,American Airlines Inc.,11652,76.44,2
+SFO,"San Francisco, CA",DL,Delta Air Lines Inc.,13762,75.82,3
+SFO,"San Francisco, CA",AS,Alaska Airlines Inc.,10492,75.04,4
+SFO,"San Francisco, CA",OO,SkyWest Airlines Inc.,30995,73.75,5
+SFO,"San Francisco, CA",WN,Southwest Airlines Co.,9851,54.83,6
+SHV,"Shreveport, LA",OO,SkyWest Airlines Inc.,5062,79.34,1
+SJC,"San Jose, CA",OO,SkyWest Airlines Inc.,6519,86.85,1
+SJC,"San Jose, CA",WN,Southwest Airlines Co.,26188,78.77,2
+SJU,"San Juan, PR",B6,JetBlue Airways,11773,73.87,1
+SLC,"Salt Lake City, UT",OO,SkyWest Airlines Inc.,36057,89.91,1
+SLC,"Salt Lake City, UT",DL,Delta Air Lines Inc.,54146,83.23,2
+SLC,"Salt Lake City, UT",WN,Southwest Airlines Co.,11107,77.58,3
+SMF,"Sacramento, CA",OO,SkyWest Airlines Inc.,8675,82.72,1
+SMF,"Sacramento, CA",WN,Southwest Airlines Co.,31725,79.62,2
+SNA,"Santa Ana, CA",WN,Southwest Airlines Co.,14531,83.08,1
+SNA,"Santa Ana, CA",AA,American Airlines Inc.,6535,80.64,2
+SNA,"Santa Ana, CA",UA,United Air Lines Inc.,6059,80.41,3
+SNA,"Santa Ana, CA",OO,SkyWest Airlines Inc.,5657,72.79,4
+STL,"St. Louis, MO",DL,Delta Air Lines Inc.,5244,88.02,1
+STL,"St. Louis, MO",AA,American Airlines Inc.,5680,82.11,2
+STL,"St. Louis, MO",WN,Southwest Airlines Co.,38831,75.91,3
+TPA,"Tampa, FL",UA,United Air Lines Inc.,8452,82.23,1
+TPA,"Tampa, FL",DL,Delta Air Lines Inc.,13800,80.61,2
+TPA,"Tampa, FL",AA,American Airlines Inc.,13509,78.13,3
+TPA,"Tampa, FL",WN,Southwest Airlines Co.,23435,77.48,4
+TPA,"Tampa, FL",F9,Frontier Airlines Inc.,6391,77.19,5
+TUL,"Tulsa, OK",WN,Southwest Airlines Co.,5500,84.55,1
+TUS,"Tucson, AZ",OO,SkyWest Airlines Inc.,8098,84.12,1
+XNA,"Fayetteville, AR",MQ,Envoy Air,5783,83.85,1

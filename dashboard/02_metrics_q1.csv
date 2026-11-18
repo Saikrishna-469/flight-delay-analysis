@@ -1,0 +1,2 @@
+total_scheduled_flights,cancelled_flights,cancellation_rate_pct,diverted_flights,operated_flights,on_time_pct,delayed_15plus_pct,avg_arrival_delay_min,avg_departure_delay_min,avg_delay_min_when_delayed,median_arrival_delay_min,p95_arrival_delay_min
+7049869,133211.0,1.89,20673.0,6895985,77.26,22.74,17.59,17.68,73.0,0.0,91.0
